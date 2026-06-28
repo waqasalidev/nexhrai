@@ -79,14 +79,8 @@ NexHRAI/
    ```
 
 3. **Configure Backend Environment Variables:**
-   Create `backend/.env` with the following variables:
-   ```env
-   PORT=5001
-   MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/nexhr
-   JWT_SECRET=your_super_jwt_secret
-   GEMINI_API_KEY=your_gemini_api_key
-   NODE_ENV=development
-   ```
+   Create a `backend/.env` configuration file containing variables for `PORT`, `MONGO_URI` (database connection), `JWT_SECRET` (session validation), `GEMINI_API_KEY` (Gemini model interface), and `NODE_ENV`.
+
 
 4. **Setup Frontend:**
    Navigate to the frontend directory and install packages:
